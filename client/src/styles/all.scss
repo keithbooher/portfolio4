@@ -1,0 +1,37 @@
+@import "./color.scss";
+@import "./flex.scss";
+@import "./margin.scss";
+@import "./padding.scss";
+@import "./elements.scss";
+@import "./text.scss";
+@import "./animations.scss";
+@import "./position.scss";
+@import "./display.scss";
+@import "./border.scss";
+@import "./font-size.scss";
+
+html {
+  background-color: rgb(29, 29, 31);
+}
+
+.link_active_color {
+  color: #8904cc;
+}
+
+.sidebar_bg_color {
+  background-color: #292929;
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+
+.spinner_container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+
+

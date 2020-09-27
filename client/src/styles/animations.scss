@@ -1,0 +1,114 @@
+
+/////////////////////////
+//////////// ICONS //////
+/////////////////////////
+/* Standard syntax */
+@keyframes fade_in_sidebar_item {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade_in {
+  animation: fade_in_sidebar_item .6s;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+
+/////////////////////////
+////////// SIDEBAR //////
+/////////////////////////
+
+@keyframes slide_sidebar_bars_in {
+  from {
+    left: 2.8em;
+  }
+  to {
+    left: 5px;
+  }
+}
+
+@keyframes slide_sidebar_bars_out {
+  from {
+    left: 5px;
+  }
+  to {
+    left: 2.8em;
+  }
+}
+
+
+
+.sidebar_bars {
+  top: 5px;
+  left: 5px;
+  animation: slide_sidebar_bars_in .6s;
+  animation-fill-mode: forwards;
+}
+
+.sidebar_bars_open {
+  top: 5px;
+  left: 2.8em;
+  animation: slide_sidebar_bars_out .6s;
+  animation-fill-mode: forwards;
+}
+
+
+.unitiated_sidebar_bars {
+  top: 5px;
+  left: 5px;
+}
+
+
+
+@keyframes slide_sidebar_in {
+  from {
+    left: 0em;
+    opacity: 1;
+  }
+  to {
+    left: -3.5em;
+    opacity: 0;
+  }
+}
+
+@keyframes slide_sidebar_out {
+  from {
+    left: -3.5em;
+    opacity: 0;
+  }
+  to {
+    left: 0em;
+    opacity: 1;
+  }
+}
+
+
+.sidebar {
+  width: 3.5em;
+  position: absolute;
+  left: -3.5em;
+  top: 0px;
+  bottom: 0px;
+  animation: slide_sidebar_in .6s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.sidebar_open {
+  width: 3.5em;
+  position: absolute;
+  left: 0em;
+  top: 0px;
+  bottom: 0px;
+  animation: slide_sidebar_out .6s;
+  animation-fill-mode: forwards;
+  opacity: 1;
+}
+
