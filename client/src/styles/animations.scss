@@ -92,7 +92,7 @@
 
 .sidebar {
   width: 3.5em;
-  position: absolute;
+  position: fixed;
   left: -3.5em;
   top: 0px;
   bottom: 0px;
@@ -103,7 +103,7 @@
 
 .sidebar_open {
   width: 3.5em;
-  position: absolute;
+  position: fixed;
   left: 0em;
   top: 0px;
   bottom: 0px;
