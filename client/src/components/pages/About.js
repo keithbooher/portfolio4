@@ -36,7 +36,7 @@ const About = ({ mobile }) => {
 
   return (
     <div style={{ zIndex: 9, fontSize: (mobile ? "18px" : "23px"), lineHeight: "1.3", width: (mobile ? "100%" :"80%"), margin: "0px auto" }}>
-      <h1 style={{ marginTop: "0px" }} className="text-align-center font-size-40">About</h1>
+      <h1 style={{ marginTop: "0px" }} className="text-align-center font-size-50">About</h1>
       {about ? 
         about.contents.map((about_section, index) => {
           return (

@@ -31,7 +31,7 @@ const Skills = ({ mobile }) => {
   }
   return (
     <div style={{ zIndex: 9, padding: "0px 10px 50px 10px" }}>
-      <h1 className="text-align-center font-size-40">Skills</h1>
+      <h1 className="text-align-center font-size-50">Skills</h1>
       <div>
         {skills ? 
           skills.contents.map((skill_section, index) => {
