@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect }  from 'react';
+import axios from "axios"
 import {
   BrowserRouter,
   Switch,
@@ -22,6 +23,11 @@ let isMobile = mobile()
 
 
 function App() {
+
+  useEffect(() => {
+    axios.get("https://strapi-portfolio-kb.herokuapp.com/pages")
+    return () => {};
+  }, []);
 
   return (
     <BrowserRouter>
