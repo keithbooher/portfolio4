@@ -87,9 +87,9 @@ const MobileSidebar = ({ showSidebar, setShowSidebar }) => {
 
 
           <div className="flex-column align-items space-evenly" style={{ flexBasis: "25%" }}>
-            <a><FontAwesomeIcon className="font-size-25" icon={faLinkedin} /></a>
-            <a><FontAwesomeIcon className="font-size-25" icon={faGithub} /></a>
-            <a><FontAwesomeIcon className="font-size-25" icon={faFacebook} /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/keith-booher-8250b715a/"><FontAwesomeIcon className="font-size-25" icon={faLinkedin} /></a>
+            <a target="_blank" href="https://github.com/keithbooher"><FontAwesomeIcon className="font-size-25" icon={faGithub} /></a>
+            <a target="_blank" href="https://www.facebook.com/Nebula-Technologies-112902613903919"><FontAwesomeIcon className="font-size-25" icon={faFacebook} /></a>
           </div>
         </div>
 
@@ -164,9 +164,9 @@ const DesktopSidebar = ({ setShowSidebar }) => {
 
 
       <div className="flex-column align-items space-evenly" style={{ flexBasis: "25%" }}>
-        <a><FontAwesomeIcon className="font-size-25" icon={faLinkedin} /></a>
-        <a><FontAwesomeIcon className="font-size-25" icon={faGithub} /></a>
-        <a><FontAwesomeIcon className="font-size-25" icon={faFacebook} /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/keith-booher-8250b715a/"><FontAwesomeIcon className="font-size-25" icon={faLinkedin} /></a>
+        <a target="_blank" href="https://github.com/keithbooher"><FontAwesomeIcon className="font-size-25" icon={faGithub} /></a>
+        <a target="_blank" href="https://www.facebook.com/Nebula-Technologies-112902613903919"><FontAwesomeIcon className="font-size-25" icon={faFacebook} /></a>
       </div>
 
     </div>
