@@ -9,12 +9,12 @@
     },
     {
       "src": "brain.svg",
-      "type": "image/png",
+      "type": "svg",
       "sizes": "192x192"
     },
     {
       "src": "brain.svg",
-      "type": "image/png",
+      "type": "svg",
       "sizes": "512x512"
     }
   ],
